@@ -18,14 +18,14 @@ $("li").mouseout(function(){
 
 
 
-$( "li" ).click(function() {
+$( "a" ).click(function() {
   $( this ).css("background-color", "red");
 });
 
 
 
 
-$( "li" ).click(function() {
+$( "a" ).click(function() {
   $( this ).text("CLICKED!!!");
 });
 
